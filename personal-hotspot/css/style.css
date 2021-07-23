@@ -2281,6 +2281,10 @@ header a.logo img {
   display: none;
   margin-top: 75px;
 }
+
+.mobile-button {
+  display: none;
+}
 @media (max-width: 575.98px) {
   .mobile-logo {
     display: block;
