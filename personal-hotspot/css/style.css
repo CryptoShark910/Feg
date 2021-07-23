@@ -2082,7 +2082,7 @@ header a.logo img {
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .h1,
   h1 {
-    font-size: 58px;
+    font-size: 50px;
   }
   .h3,
   h3 {
@@ -2277,7 +2277,14 @@ header a.logo img {
     font-size: 14px;
   }
 }
+.mobile-logo {
+  display: none;
+  margin-top: 75px;
+}
 @media (max-width: 575.98px) {
+  .mobile-logo {
+    display: block;
+  }
   .h1,
   h1 {
     font-size: 30px;
