@@ -1,7 +1,6 @@
 jQuery(document).ready(function($){
     var timelines = $('.cd-horizontal-timeline'),
-//         eventsMinDistance = 65;
-        eventsMinDistance = $(window).width() > 500 ? 65 : 40;
+        eventsMinDistance = 65;
 
 
     (timelines.length > 0) && initTimeline(timelines);
